@@ -1,0 +1,8 @@
+package fucci;
+
+public enum StatementType {
+    UNKNOWN,
+    SELECT, SELECT_SHARE, SELECT_UPDATE,
+    UPDATE, DELETE, INSERT, SET,
+    BEGIN, COMMIT, ROLLBACK, CREATE, CREATE_INDEX,
+}
