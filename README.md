@@ -9,7 +9,7 @@ Fucci is a tool to automatically detect transaction bugs in DBMSs.
 The artifact contains two structure:
 
 * cases/: Contains the test cases that can trigger the bugs found by Fucci.
-* src/main/java/Fucci/: Contains the source code of Fucci.
+* src/main/java/fucci/: Contains the source code of Fucci.
 G
 ## Requirements
 
@@ -74,4 +74,3 @@ java -jar Fucci*.jar --dbms mariadb --host 127.0.0.1 --port 10004 --username roo
 ```
 
 The outputs are recorded in `Fucci.log`.
-# Fucci
