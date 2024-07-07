@@ -1,0 +1,10 @@
+.idea/
+target/
+*.log
+.classpath
+.factorypath
+.project
+.vscode/
+*.out
+.VSCodeCounter
+bugs/
