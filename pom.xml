@@ -90,7 +90,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>Fucci.Main</mainClass>
+                            <mainClass>fucci.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -130,3 +130,4 @@
         </resources>
     </build>
 </project>
+
